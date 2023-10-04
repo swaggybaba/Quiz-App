@@ -9,5 +9,6 @@ import com.prafful.demo.Question;
 
 @Repository
 public interface QuestionDao extends JpaRepository<Question, Integer>{
-
+	
+	public List<Question> findByCategory(String category);
 }
