@@ -8,8 +8,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.prafful.demo.Question;
 import com.prafful.demo.dao.QuestionDao;
+import com.prafful.demo.model.Question;
 
 @Service
 public class QuestionService {
